@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Cunia Font';
+    src: url('../font/Cunia.ttf');
+}
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url('../font/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald Light';
+    src: url('../font/Oswald-Light.ttf');
+}
+.enlacesHeader{
+    color:aliceblue;
+    font-size: 16px;;
+    font-family:"Oswald Light";
+    padding: 10px;
+    text-decoration: none;
+}
+.enlacesHeader:active{
+    color: aliceblue;
+}
+.enlacesHeader:hover{
+    color:aliceblue;
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+    filter: blur(0);
+    transform: scale(1.5);
+  }
+  
+  .fadeTop {
+    opacity: 0; 
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .fadeDown {
+    opacity: 0; 
+    transform: translate(0, -10vh);
+    transition: all 1s;
+  }
+  
+  .fadeRight {
+    opacity: 0;
+    transform: translate(10vh, 0vh);
+    transition: all 1s;
+  }
+  
+  .fadeLeft {
+    opacity: 0;
+    transform: translate(-10vh, 0vh);
+    transition: all 1s;
+  }
+  .visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
